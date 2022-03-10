@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">RunApp</string>
+    <string name="google_maps_key">AIzaSyDPaU7kOaMuIz6AxKG0mMMGsDG1T0NLK1w</string>
+
+    <string name="your_runs">Your Runs</string>
+    <string name="your_statistics">Statistics</string>
+    <string name="your_challenges">Challenges</string>
+    <string name="your_settings">Settings</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="finish">Finish</string>
+    <string name="title_activity_tracking">TrackingActivity</string>
+    <string name="create_run">Create Run</string>
+    <string name="save_run">Save Run</string>
+    <string name="delete_run">Delete Run</string>
+
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="sort_By">Sort By</string>
+
+    <string name="duration">Duration</string>
+    <string name="distance">Distance</string>
+    <string name="speed">Speed</string>
+    <string name="calories_burned">Calories</string>
+
+    <string name="attach_photos">Add Photos</string>
+    <string name="additional_info">Additional Information</string>
+
+    <string name="description">Description</string>
+    <string name="weather">Weather</string>
+    <string name="rating">Rating</string>
+    <string name="initial_time">00:00:00:00</string>
+    <string name="feed">Feed</string>
+    <string name="name">Name</string>
+    <string name="weight">Weight(kg)</string>
+    <string name="cont">Continue</string>
+    <string name="close">x</string>
+
+    <string name="difficulty">Difficulty</string>
+    <string name="attach">Attach Photos</string>
+
+
+
+    <string-array name="filter_options">
+        <item>Date</item>
+        <item>Running Time</item>
+        <item>Distance</item>
+        <item>Average Speed</item>
+        <item>Calories Burned</item>
+    </string-array>
+
+    <string-array name="weather_options">
+        <item>Sunny</item>
+        <item>Foggy</item>
+        <item>Rainy</item>
+        <item>Cloudy</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="stats_daily">Daily Statistics</string>
+    <string name="stats_weekly">Weekly Statistics</string>
+    <string name="stats_alltime">All-Time Statistics</string>
+
+    <string name="stats_total_distance">Total Distance</string>
+    <string name="stats_total_time">Total Time</string>
+    <string name="stats_total_calories">Total Calories Burned</string>
+    <string name="stats_avg_speed">Average Speed</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

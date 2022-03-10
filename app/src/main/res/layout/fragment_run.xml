@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragmentBackground"
+    tools:context=".ui.RunFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/sortLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="horizontal"
+        android:paddingLeft="40px">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="50px"
+            android:text="@string/sort_By"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black" />
+
+        <Spinner
+            android:id="@+id/sortByFilter"
+            style="@style/mySpinnerItemStyle"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:entries="@array/filter_options"
+            android:forceDarkAllowed="false" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addNewRunButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="26dp"
+        android:clickable="true"
+        android:src="@drawable/ic_baseline_add_24"
+        app:backgroundTint="@color/colorSecondary" />
+
+    <TextView
+        android:id="@+id/trackingRunText"
+        android:layout_width="387dp"
+        android:layout_height="51dp"
+        android:layout_above="@id/recyclerViewRun"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorSecondary"
+        android:elevation="2dp"
+        android:padding="20px"
+        android:shadowColor="#000000"
+        android:shadowDx="100"
+        android:shadowDy="100"
+        android:shadowRadius="100"
+        android:text="You are already tracking a run, click add to continue."
+        android:textAlignment="center" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sortLinear"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="14dp" />
+
+</RelativeLayout>
